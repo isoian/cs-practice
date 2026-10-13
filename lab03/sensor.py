@@ -24,3 +24,4 @@ print(errors)
 print(exceeded)
 print(f'{peak:.1f}')
 print(f'{mean:.1f}')
+#конец программы
