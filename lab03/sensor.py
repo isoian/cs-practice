@@ -1,3 +1,4 @@
+#Лабароторная работа 3пш
 limit = float(input())
 records= int(input())
 errors=0
