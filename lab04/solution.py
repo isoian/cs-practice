@@ -1,3 +1,4 @@
+#лабораторная работа 4
 def winner(names,scores):
     top=0
     for i in range(1,len(scores)):
