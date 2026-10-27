@@ -1,3 +1,4 @@
+# Functions for working with lists, dictionaries and sets.
 def count_items(values: list) -> dict:
     counts = {}
     for value in values:
