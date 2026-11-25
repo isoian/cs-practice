@@ -27,31 +27,31 @@ def matrix_vector_product(matrix: list[list[float]],
     return (a @ b).tolist()
 
 
-# def matrix_multiply(left: list[list[float]],
-#                     right: list[list[float]]) -> list[list[float]]:
-#     a = np.asarray(left, dtype=float)
-#     b = np.asarray(right, dtype=float)
-#     return (a @ b).tolist()
+def matrix_multiply(left: list[list[float]],
+                    right: list[list[float]]) -> list[list[float]]:
+    a = np.asarray(left, dtype=float)
+    b = np.asarray(right, dtype=float)
+    return (a @ b).tolist()
 
 
-# def transpose_matrix(matrix: list[list[float]]) -> list[list[float]]:
-#     a = np.asarray(matrix, dtype=float)
-#     return a.T.tolist()
+def transpose_matrix(matrix: list[list[float]]) -> list[list[float]]:
+    a = np.asarray(matrix, dtype=float)
+    return a.T.tolist()
 
 
-# def solve_system(matrix: list[list[float]],
-#                  vector: list[float]) -> list[float]:
-#     a = np.asarray(matrix, dtype=float)
-#     b = np.asarray(vector, dtype=float)
-#     return np.linalg.solve(a, b).round(6).tolist()
+def solve_system(matrix: list[list[float]],
+                 vector: list[float]) -> list[float]:
+    a = np.asarray(matrix, dtype=float)
+    b = np.asarray(vector, dtype=float)
+    return np.linalg.solve(a, b).round(6).tolist()
 
 
-# def tensor_channel_mean(tensor: list) -> list:
-#     a = np.asarray(tensor, dtype=float)
-#     return a.mean(axis=-1).tolist()
+def tensor_channel_mean(tensor: list) -> list:
+    a = np.asarray(tensor, dtype=float)
+    return a.mean(axis=-1).tolist()
 
 
-# def point_distance(first: list[float], second: list[float]) -> float:
-#     a = np.asarray(first, dtype=float)
-#     b = np.asarray(second, dtype=float)
-#     return round(float(np.linalg.norm(a - b)), 6)
+def point_distance(first: list[float], second: list[float]) -> float:
+    a = np.asarray(first, dtype=float)
+    b = np.asarray(second, dtype=float)
+    return round(float(np.linalg.norm(a - b)), 6)
